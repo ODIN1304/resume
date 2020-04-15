@@ -1,0 +1,23 @@
+main {
+    background-color: white;
+    padding: 10px;
+    
+}
+@media screen and (max-width: 991px) {
+    main {
+        min-height: 70vh;
+    }
+}
+@media screen and (min-width: 992px) {
+    main {
+        min-height: 100vh;
+    }
+
+    aside nav a>i {
+        float: right;
+        color: white;
+        font-size: 2rem;
+        position: relative;
+        right: -21px;
+    }
+}

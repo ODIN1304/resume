@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+.main {
+    padding: 50px 20px;
+}
+.main h1, .main h1>i {
+    font-size: 1.8rem;
+}
+.main h2 {
+    font-size: 1.4rem;
+}
+main .eng {
+    font-weight: 900;
+}
+
+.main td * {
+    font-size: 1.2rem;
+}
+.main td a {
+    font-family: 'Comic Neue', cursive;
+    text-decoration: none;
+    color: black;
+}
+.main td span {
+    font-family: 'Jua', sans-serif;
+}
+.main td i {
+    padding: 3px 5px 3px 10px;
+}
+

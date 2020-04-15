@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+
+.main>div p, .main p * {
+    font-size: 1rem;
+}
+main .title {
+    font-size: 1.3rem;
+    text-decoration: underline;
+    padding: 2px;
+}
+main li {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+@media screen and (max-width: 991px) {
+    main table th, main th * {
+        font-size: 0.7rem;
+    }
+    main table th {
+        width: 60px;
+    }
+}
+@media screen and (min-width: 992px) {
+    main table th {
+        width: 150px;
+    }
+}

@@ -1,0 +1,136 @@
+@charset "UTF-8";
+
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    font-size: 1rem;
+    font-weight: normal;
+    font-family: 'Jua', sans-serif;
+}
+.chn { font-family: 'Ma Shan Zheng', cursive; }
+.eng { font-family: 'Comic Neue', cursive; }
+.kor { font-family: 'Jua', sans-serif; }
+
+
+aside::before {
+    background: url(../imgs/grayscaleMts.jpg);
+    background-size: cover;
+    position: fixed;
+    z-index: -100;
+    content: '';
+    top: 0; bottom: 0; left: 0; right: 0;
+}
+.main::before {
+    background-color: black;
+    position: fixed;
+    z-index: -99;
+    content: '';
+    top: 0; bottom: 0; left: 0; right: 0;
+    opacity: 0.4;
+    min-width: inherit;
+    width: inherit;
+    max-width: inherit;
+}
+
+/* aside **********************/
+aside a {
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+/* end aside **********************/
+
+
+header {
+    text-align: center;
+}
+header figcaption {
+    font-size: 1.8rem;
+}
+header .chn {
+    font-size: 1.6rem;
+}
+header span {
+    font-size: 1.3rem;
+}
+header img {
+    width: 180px;
+    height: 180px;
+    border-radius: 90px;
+}
+
+
+
+footer i {
+    font-size: 1.5rem;
+}
+footer li {
+    display: inline-block;
+}
+
+
+@media screen and (max-width: 991px) {
+    .hidden {
+        display: none;
+    }
+    /* end everywhere ******************************/
+    aside {
+        background-color: #8A2020;
+    }
+
+    .header {
+        padding: 20px 0 0 0;
+    }
+
+    nav li {
+        border-top: 1px solid white;
+    }
+    nav a {
+        padding: 5px 15px;
+    } 
+
+
+    footer a {
+        padding: 9px 10px;
+    }   
+}
+@media screen and (min-width: 992px) {
+    aside::after {
+        background-color: #8A2020;
+        position: fixed;
+        z-index: -90;
+        content: '';
+        top: 0; bottom: 0; left: 0; right: 0;
+        opacity: 0.7;
+        min-width: inherit;
+        width: inherit;
+        max-width: inherit;
+    }
+    header {
+        padding: 20px 0 0 0;
+    }
+
+
+    nav ul {
+        padding: 10px 0;
+    }
+    nav a {
+        padding: 7px 20px;
+        font-size: 1.1rem;
+    }
+    
+
+
+    footer {
+        padding: 5px 20px;
+    }
+    footer .eng {
+        font-size: 1.2rem;
+        font-weight: 900;
+    }
+    footer a {
+        padding: 7px 10px;
+    }   
+}

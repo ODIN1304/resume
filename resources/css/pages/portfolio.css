@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+
+
+
+
+
+
+
+main table tr td:nth-child(2) {
+    width: 20px;
+    text-align: right;
+}
+
+main table li {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+main table img:first-child {
+    max-width: 500px;
+    max-height: 375px;
+}
+main table img {
+    width: 100%; 
+    height: 100%;
+    max-width: 250px;
+    max-height: 185px;
+}
+
+@media screen and (max-width: 991px) {
+    main table th{
+        width: 67px;
+        font-size: 0.7rem;
+    }
+}
+@media screen and (min-width: 992px) {
+    main table th{
+        width: 98px;
+    }
+}

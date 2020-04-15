@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+
+
+
+
+
+@media screen and (max-width: 991px) {
+    /* about mobile nav ***********************************************/
+    #navBtn {
+        font-size: 1.5rem;
+        padding: 10px;
+        margin-left: 10px;
+    }
+    #navBtn:hover {
+        cursor: pointer;
+    }
+    nav ul {
+        top: -500px;
+        position: absolute;
+    }
+    nav .called {
+        top: 0px;
+        position: relative;
+        transition: 0.2s;
+    }
+    nav .fa-caret-left {
+        display: none;
+    }
+    /* end about mobile nav ***********************************************/
+    header {
+        padding: 7px 0;
+        border-bottom: 1px solid black;
+        height: 305px;
+    }
+    nav {
+        border-bottom: 1px solid white;
+    }
+    footer {
+        text-align: right;
+        position: absolute;
+        right: 15px;
+        top: 319px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    #navBtn {
+        display: none;
+    }
+    .body {
+        display: flex;
+    }
+    
+    
+    aside {
+        min-width: 300px;
+        width: 25%;
+        max-width: 350px;
+    }
+    .aside {
+        position: fixed;
+        min-width: inherit;
+        width: inherit;
+        max-width: inherit;
+    }
+    
+    main {
+        flex: 1;
+    }
+}
