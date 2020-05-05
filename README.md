@@ -9,7 +9,7 @@
 
 <br>
 
-## 타임라인
+## <a href="https://odin1304.github.io/resume/pages/timeline.html">타임라인</a>
 * 시작하면 엄청 집중한다. <br>
 * 목표지점을 설정하고, 이루기 위해 꾸준히 노력한다.
 
@@ -24,7 +24,7 @@
 
 <br>
 
-## 포트폴리오
+## <a href="https://odin1304.github.io/resume/pages/portfolio.html">포트폴리오</a>
 * 개인
   * GymThenix
     - 회원CRUD
